@@ -1,6 +1,6 @@
 // src\utils\getValidationErrors.ts
 
-import { ValidationError, string } from 'yup';
+import { ValidationError } from 'yup';
 
 interface Errors {
   [key: string]: string;
